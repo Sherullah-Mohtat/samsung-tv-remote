@@ -1,0 +1,11 @@
+{
+  "name": "samsung-remote-native",
+  "version": "1.0.0",
+  "description": "Native WebSocket with selective self-signed SSL trust and WoL for Samsung Remote",
+  "main": "index.ts",
+  "types": "index.ts",
+  "keywords": [
+    "expo",
+    "expo-module"
+  ]
+}

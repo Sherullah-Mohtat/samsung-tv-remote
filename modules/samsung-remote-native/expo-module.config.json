@@ -1,0 +1,12 @@
+{
+  "name": "samsung-remote-native",
+  "platforms": ["ios", "apple"],
+  "apple": {
+    "modules": ["SamsungRemoteNativeModule"],
+    "podspecPath": "SamsungRemoteNative.podspec"
+  },
+  "ios": {
+    "modules": ["SamsungRemoteNativeModule"],
+    "podspecPath": "SamsungRemoteNative.podspec"
+  }
+}
