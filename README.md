@@ -110,10 +110,21 @@ npx expo prebuild --platform ios --clean
 ```
 
 ### 4. Run on a Connected Physical iPhone
+
+Use `--device` (Debug) while you are actively tweaking button styles, colors, or keycodes at your desk and want instant updates every time you save a file.
+
 Connect your iPhone via USB, trust the computer, and run:
 ```bash
 npx expo run:ios --device
 ```
+
+Use `--device --configuration Release` whenever you are finished editing and want to carry your iPhone around the house to use it as your actual everyday Samsung TV remote without keeping your Mac awake.
+
+Connect your iPhone via USB, trust the computer, and run:
+```bash
+npx expo run:ios --device --configuration Release
+```
+
 *Note: Xcode will automatically configure codesigning for your Apple ID team.*
 
 Alternatively, run in the iOS Simulator:
